@@ -13,5 +13,5 @@ def my_collect(collection)
 end
 binding.pry
 my_collect(array) do |name|
-    name.split(" ").first
+    name.split(" ").first.upcase
 end
